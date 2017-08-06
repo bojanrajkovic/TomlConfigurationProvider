@@ -1,10 +1,13 @@
 ﻿using System;
 using System.IO;
+
+using JetBrains.Annotations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.FileProviders;
 
 namespace CodeRinseRepeat.Configuration.TomlConfigurationProvider
 {
+    [PublicAPI]
     public static class TomlConfigurationExtensions
     {
         /// <summary>

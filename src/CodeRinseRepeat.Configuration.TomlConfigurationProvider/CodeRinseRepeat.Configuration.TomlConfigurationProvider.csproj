@@ -24,6 +24,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="GitInfo" Version="1.1.71" PrivateAssets="All" />
+    <PackageReference Include="JetBrains.Annotations" Version="11.0.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="1.1.2" />
     <PackageReference Include="Nett" Version="0.7.0" />

@@ -8,7 +8,7 @@ using Nett;
 
 namespace CodeRinseRepeat.Configuration.TomlConfigurationProvider
 {
-    internal class TomlConfigurationFileParser : ITomlObjectVisitor
+    class TomlConfigurationFileParser : ITomlObjectVisitor
     {
         readonly IDictionary<string, string> data = new SortedDictionary<string, string>(StringComparer.OrdinalIgnoreCase);
         readonly Stack<string> context = new Stack<string>();
